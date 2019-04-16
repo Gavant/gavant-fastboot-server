@@ -1,0 +1,27 @@
+{
+    "name": "gavant-fastboot-server",
+    "version": "0.0.1",
+    "description": "Configures a node.js express server with fastboot's application server",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gavant/gavant-fastboot-server.git"
+    },
+    "author": "Gavant Software",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gavant/gavant-fastboot-server/issues"
+    },
+    "homepage": "https://github.com/Gavant/gavant-fastboot-server",
+    "dependencies": {
+        "express": "4.14.0",
+        "fastboot-app-server": "1.1.0",
+        "fastboot-watch-notifier": "3.0.0",
+        "fs-extra": "1.0.0",
+        "merge": "1.2.0",
+        "node-fetch": "1.6.0"
+    }
+}
