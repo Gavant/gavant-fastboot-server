@@ -24,7 +24,7 @@ server.start();
 In the node server's `package.json`, add:
 ```
 "scripts": {
-    "start": "appName='{EMBER_APP_DIR}' distPath='../{EMBER_APP_DIR}/dist' envPath='{EMBER_APP_DIR}/config/environment' node server.js"
+    "start": "appName='{EMBER_APP_DIR}' distPath='../../../{EMBER_APP_DIR}/dist' envPath='{EMBER_APP_DIR}/config/environment' node server.js"
 }
 ```
-Replacing `{EMBER_APP_DIR}` with the actual ember.js application directory name.
+Replacing `{EMBER_APP_DIR}` with the actual ember.js application directory name. (`distPath` is relative to this package's index.js file)
