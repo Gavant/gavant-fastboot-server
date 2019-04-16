@@ -7,6 +7,13 @@ module.exports = function applyRuntimeConfig(appName, distPath, configName) {
     const pkgPath = path.join(__dirname, distPath, 'package.json');
     const indexPath = path.join(__dirname, distPath, 'index.html');
     const configuredIndexPath = path.join(__dirname, distPath, 'index-configured.html');
+
+    //if the configured index is already created (i.e. by another worker process) abort early
+    if(fs.pathExistsSync(configuredIndexPath)) {
+        console.log('index-configured.html already exists, skipping...');
+        return;
+    }
+
     let indexContents = fs.readFileSync(indexPath, {encoding: 'utf-8'});
 
     try {
