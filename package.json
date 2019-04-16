@@ -1,7 +1,7 @@
 {
     "name": "gavant-fastboot-server",
     "version": "0.0.1",
-    "description": "Configures a node.js express server with fastboot's application server",
+    "description": "Creates and configures a FastBoot node.js server for the production enviroments of Gavant ember.js projects.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
