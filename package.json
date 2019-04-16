@@ -1,0 +1,28 @@
+{
+    "name": "gavant-fastboot-server",
+    "version": "0.0.1",
+    "description": "Creates and configures a FastBoot node.js server for the production enviroments of Gavant ember.js projects.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gavant/gavant-fastboot-server.git"
+    },
+    "author": "Gavant Software",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gavant/gavant-fastboot-server/issues"
+    },
+    "homepage": "https://github.com/Gavant/gavant-fastboot-server",
+    "dependencies": {
+        "abortcontroller-polyfill": "1.3.0",
+        "express": "4.14.0",
+        "fastboot-app-server": "1.1.0",
+        "fastboot-watch-notifier": "3.0.0",
+        "fs-extra": "7.0.1",
+        "merge": "1.2.0",
+        "node-fetch": "1.6.0"
+    }
+}
