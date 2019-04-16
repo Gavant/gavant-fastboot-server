@@ -7,6 +7,7 @@ Installation
 ```
 yarn add gavant-fastboot-server
 ```
+(in your node server's directory)
 
 Usage
 ------------------------------------------------------------------------------
