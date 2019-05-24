@@ -5,7 +5,7 @@ Creates and configures a FastBoot node.js server for the production enviroments 
 Installation
 ------------------------------------------------------------------------------
 ```
-yarn add gavant-fastboot-server
+yarn add @gavant/fastboot-server
 ```
 (in your node server's directory)
 

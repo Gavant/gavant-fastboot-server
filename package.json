@@ -1,5 +1,5 @@
 {
-    "name": "gavant-fastboot-server",
+    "name": "@gavant/fastboot-server",
     "version": "0.0.1",
     "description": "Creates and configures a FastBoot node.js server for the production enviroments of Gavant ember.js projects.",
     "main": "index.js",
