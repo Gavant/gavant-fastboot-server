@@ -9,7 +9,7 @@ module.exports = function(options) {
     const debounceDelay = options.debounceDelay || 250;
     const workerCount = options.workerCount || 1;
 
-    applyRuntimeConfig(options.appName, options.distPath, options.envPath);
+    applyRuntimeConfig(options.appName, options.distPath, options.envPath, options.configPath);
 
     const notifier = new FastBootWatchNotifier({
         debounceDelay,

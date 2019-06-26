@@ -16,7 +16,8 @@ Create a main entry point file for the server, e.g. `server.js`, with:
 const server = require('gavant-fastboot-server')({
     appName: process.env.appName,
     distPath: process.env.distPath,
-    envPath: process.env.envPath
+    envPath: process.env.envPath,
+    configPath: process.env.CLIENT_CONFIG_PATH
 });
 server.start();
 ```
