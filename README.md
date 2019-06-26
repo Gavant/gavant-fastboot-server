@@ -5,7 +5,7 @@ Creates and configures a FastBoot node.js server for the production enviroments 
 Installation
 ------------------------------------------------------------------------------
 ```
-yarn add gavant-fastboot-server
+yarn add @gavant/fastboot-server
 ```
 (in your node server's directory)
 
@@ -13,7 +13,7 @@ Usage
 ------------------------------------------------------------------------------
 Create a main entry point file for the server, e.g. `server.js`, with:
 ```
-const server = require('gavant-fastboot-server')({
+const server = require('@gavant/fastboot-server')({
     appName: process.env.appName,
     distPath: process.env.distPath,
     envPath: process.env.envPath,
