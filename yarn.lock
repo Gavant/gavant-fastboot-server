@@ -846,6 +846,11 @@ najax@^1.0.2:
     lodash.defaultsdeep "^4.6.0"
     qs "^6.2.0"
 
+nan@2.3.x:
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.3.5.tgz#822a0dc266290ce4cd3a12282ca3e7e364668a08"
+  integrity sha1-gioNwmYpDOTNOhIoLKPn42Rmigg=
+
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
@@ -885,6 +890,13 @@ on-headers@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/on-headers/-/on-headers-1.0.2.tgz#772b0ae6aaa525c399e489adfad90c403eb3c28f"
   integrity sha512-pZAE+FJLoyITytdqK0U5s+FIpjN0JP3OzFi/u8Rx+EV5/W+JTWGXG8xFzevE7AjBfDqHv/8vL8qQsIhHnqRkrA==
+
+os-service@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/os-service/-/os-service-1.3.0.tgz#ad9445354664d54997c78bfaf405b15b2c942453"
+  integrity sha1-rZRFNUZk1UmXx4v69AWxWyyUJFM=
+  dependencies:
+    nan "2.3.x"
 
 parseurl@~1.3.1, parseurl@~1.3.2:
   version "1.3.3"
