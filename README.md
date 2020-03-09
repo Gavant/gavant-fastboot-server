@@ -1,4 +1,6 @@
-# gavant-fastboot-server
+# DEPRECATED: gavant-fastboot-server
+
+**This project has been deprecated.**
 
 Creates and configures a FastBoot node.js server for the production enviroments of Gavant ember.js projects.
 
